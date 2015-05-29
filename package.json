@@ -1,0 +1,26 @@
+{
+  "name": "nativescript-tracer",
+  "version": "0.0.1",
+  "description": "A tracing NativeScript module for Android and iOS",
+  "main": "tracing.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanaela/nativescript-tracing.git"
+  },
+  "keywords": [
+    "NativeScript", "Tracing"
+  ],
+  "author": {
+    "name": "Nathanael Anderson",
+    "email": "nathan@master-technology.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/nathanaela/nativescript-tracing/blob/master/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/nathanaela/nativescript-tracing/issues"
+  },
+  "homepage": "https://github.com/nathanaela/nativescript-tracing",
+  "readmeFilename": "README.md"
+}
