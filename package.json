@@ -1,6 +1,6 @@
 {
-  "name": "nativescript-tracer",
-  "version": "0.0.1",
+  "name": "nativescript-tracing",
+  "version": "0.0.2",
   "description": "A tracing NativeScript module for Android and iOS",
   "main": "tracing.js",
   "repository": {
