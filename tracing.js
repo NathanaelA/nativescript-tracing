@@ -5,7 +5,7 @@
  * I do contract work in most languages, so let me solve your problems!
  *
  * Any questions please feel free to email me or put a issue up on the github repo.
- * Version 0.0.2                                       Nathan@master-technology.com
+ * Version 0.0.3                                       Nathan@master-technology.com
  **********************************************************************************/
 "use strict";
 
@@ -63,7 +63,11 @@ var addTracing = function(traceme, options) {
     var ignore = options.ignore || [];
     for (var name in traceme) {
         if (traceme.hasOwnProperty(name) && typeof traceme[name] === 'function') {
-            if (ignore[name]) { continue; }
+            var found = false;
+            for (var i=0;i<ignore.length && !found;i++) {
+                if (ignore[i] === name) { found = true; }
+            }
+            if (found) { continue; }
             traceme[name] = traceWrapper(traceme[name], name);
         }
     }

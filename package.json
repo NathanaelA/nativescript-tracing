@@ -1,8 +1,14 @@
 {
   "name": "nativescript-tracing",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Simple tracing NativeScript module for Android and iOS",
   "main": "tracing.js",
+  "nativescript": {
+    "platforms": {
+      "android": "0.0.3",
+      "ios": "0.0.3"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nathanaela/nativescript-tracing.git"
